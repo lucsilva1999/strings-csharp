@@ -8,8 +8,12 @@ namespace MeuApp
         static void Main(string[] args)
         {
 
-           string[] teste = new string[] {"1", "2", "3", "4", "5" };
-           string selecionaPosicao = teste[1];
+           string[] teste = new string[] {
+           "1", "2", "3", "4", "5", "6",
+           "7", "8", "9", "10", "11", "12",
+           "13", "14", "15", "16", "17", "18" };
+           
+           string selecionaPosicao = teste[7];
 
            Random rand = new Random();
 
@@ -17,7 +21,7 @@ namespace MeuApp
 
            string aleatorio = posicaoAleatoria.ToString();
 
-           MeuMetodo(teste[1]);
+           MeuMetodo(teste[5]);
            MeuMetodo(selecionaPosicao);
            MeuMetodo(aleatorio);
 
